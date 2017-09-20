@@ -1,0 +1,18 @@
+{
+  "tree": {
+    "dir@0.0.0": {
+      "deps": {},
+      "name": "dir",
+      "version": "0.0.0"
+    }
+  },
+  "flat": {
+    "dir@0.0.0": {
+      "name": "dir",
+      "version": "0.0.0",
+      "files": [
+        "libA.js"
+      ]
+    }
+  }
+}
