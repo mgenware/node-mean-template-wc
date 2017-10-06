@@ -8,7 +8,9 @@
         "baseUrl": "lib",
         "target": "ES5",
         "noImplicitThis": true,
-        "outDir": "dist"
+        "outDir": "dist",
+        "declaration": true,
+        "strict": true
     },
     "include": [
         "lib/**/*",
