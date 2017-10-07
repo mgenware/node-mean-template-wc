@@ -6,7 +6,6 @@
         "sourceMap": true,
         "baseUrl": "lib",
         "target": "ES5",
-        "noImplicitThis": true,
         "outDir": "dist",
         "declaration": true,
         "strict": true,
