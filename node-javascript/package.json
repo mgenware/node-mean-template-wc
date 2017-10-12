@@ -21,7 +21,7 @@
   },
   "scripts": {
     "test": "mocha --reporter spec",
-    "prepublish": "yarn run test"
+    "prepublishOnly": "yarn run test"
   },
   "engines": {
     "node": ">=6.0.0"
