@@ -20,7 +20,8 @@
     "mocha": "*"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "prepublish": "yarn run test"
   },
   "engines": {
     "node": ">=6.0.0"

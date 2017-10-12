@@ -27,6 +27,7 @@
     "build": "tsc && yarn test",
     "compile": "tsc",
     "dev": "tsc -w",
+    "prepublish": "yarn run test",
     "copy": "copyfiles \"test/data/**/*.*\" \"dist\""
   },
   "engines": {
