@@ -1,10 +1,15 @@
 const main = require('../..');
 import * as assert from 'assert';
+import * as fs from 'fs';
+import * as path from 'path';
 
 describe('require this module', () => {
-  it('No exception is thrown', () => {
-    assert.doesNotThrow(() => {
-      // TODO: call a random method from the main module
-    });
+  it('Check a function', () => {
+    // TODO: replace xxxFunc to one of your functions
+    assert.equal(typeof main.xxxFunc, 'function');
   });
-});  
+
+  it('Check type definition file', () => {
+    assert.equal(fs.statSync('./dist/lib/main.d.ts').isFile(), true);
+  });
+});
