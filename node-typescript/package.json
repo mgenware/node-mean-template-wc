@@ -19,7 +19,8 @@
     "@types/mocha": "*",
     "@types/node": "*",
     "mocha": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "copyfiles": "*"
   },
   "scripts": {
     "test": "yarn run compile && yarn run copy && mocha \"dist/test/*.js\"",
