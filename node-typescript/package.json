@@ -23,7 +23,7 @@
     "copyfiles": "*"
   },
   "scripts": {
-    "test": "yarn run compile && yarn run copy && mocha \"dist/test/*.js\"",
+    "test": "yarn run lint && yarn run compile && yarn run copy && mocha \"dist/test/*.js\"",
     "dev_test": "mocha \"dist/test/*.js\"",
     "build": "tsc && yarn test",
     "compile": "tsc",
