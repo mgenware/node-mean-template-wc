@@ -30,7 +30,7 @@
     "compile": "tsc",
     "dev": "yarn run clean && tsc -w",
     "prepublishOnly": "yarn run test",
-    "lint": "tslint --project .",
+    "lint": "tslint --project tslint.json",
     "copy": "copyfiles \"test/data/**/*.*\" \"dist\"",
     "clean:dist": "rm -rf dist",
     "clean": "npm run clean:dist"
