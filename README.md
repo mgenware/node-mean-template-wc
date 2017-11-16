@@ -1,8 +1,6 @@
-# common-configs
-My boilerplate templates.
-
+# boilerplate templates
 ## node-javascript
-Template for JavaScript Node.js modules.
+JavaScript Node.js module boilerplate.
 
 ## node-typescript
-Template for TypeScript Node.js modules.
+TypeScript Node.js modules boilerplate.
