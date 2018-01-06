@@ -16,28 +16,27 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/mocha": "*",
+    "@types/jest": "^22.0.1",
     "@types/node": "*",
-    "mocha": "*",
-    "typescript": "*",
+    "copyfiles": "*",
+    "jest": "^22.0.4",
     "tslint": "*",
-    "copyfiles": "*"
+    "typescript": "*"
   },
   "scripts": {
-    "test": "yarn run clean && yarn run compile && yarn run lint && yarn run copy && mocha \"dist/test/*.js\"",
-    "dev_test": "mocha \"dist/test/*.js\"",
+    "test": "yarn run clean && yarn run compile && yarn run lint && yarn run copy && yarn run dev_test",
+    "dev_test": "jest",
     "build": "yarn test",
     "compile": "tsc",
     "dev": "yarn run clean && tsc -w",
     "prepublishOnly": "yarn run test",
     "lint": "tslint --project tsconfig.json --config tslint.json",
-    "copy": "copyfiles \"test/data/**/*.*\" \"dist\"",
+    "copy": "copyfiles \"tests/data/**/*.*\" \"dist\"",
     "clean:dist": "rm -rf dist",
     "clean": "npm run clean:dist"
   },
   "engines": {
     "node": ">=6.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

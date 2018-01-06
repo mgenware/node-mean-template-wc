@@ -1,1 +1,3 @@
-console.log('Start coding now!');
+export default function add(x: number, y: number) {
+  return x + y;
+}
