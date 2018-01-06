@@ -1,5 +1,5 @@
 {
-  "name": "makhulu",
+  "name": "<ModuleName>",
   "version": "0.0.1",
   "description": "A smart task runner",
   "main": "dist/lib/main.js",
