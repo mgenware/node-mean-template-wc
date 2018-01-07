@@ -1,3 +1,4 @@
 lib/
 example/
-test/
+tests/
+_assets/
