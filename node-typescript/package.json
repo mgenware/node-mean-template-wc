@@ -24,7 +24,7 @@
     "typescript": "*"
   },
   "scripts": {
-    "test": "yarn run clean && yarn run compile && yarn run lint && yarn run copy && yarn run dev_test",
+    "test": "yarn run clean && yarn run compile && yarn run lint && yarn run dev_test",
     "dev_test": "yarn run copy && jest",
     "build": "yarn test",
     "compile": "tsc",
