@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "yarn run clean && yarn run compile && yarn run lint && yarn run copy && yarn run dev_test",
-    "dev_test": "jest",
+    "dev_test": "yarn run copy && jest",
     "build": "yarn test",
     "compile": "tsc",
     "dev": "yarn run clean && tsc -w",
