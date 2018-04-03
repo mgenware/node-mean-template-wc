@@ -1,7 +1,7 @@
 {
   "name": "<ModuleName>",
   "version": "0.0.1",
-  "description": "A smart task runner",
+  "description": "<NoDescription>",
   "main": "dist/lib/main.js",
   "types": "dist/lib/main.d.ts",
   "author": "Mgen (https://www.mgenware.com)",
