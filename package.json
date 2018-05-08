@@ -31,10 +31,5 @@
   },
   "engines": {
     "node": ">=6.0.0"
-  },
-  "files":[
-    "dist/lib",
-    ".gitignore",
-    "README.md"
-  ]
+  }
 }
