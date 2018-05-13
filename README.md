@@ -5,4 +5,4 @@
 [![npm version](https://img.shields.io/npm/v/layit.svg?style=flat-square)](https://npmjs.com/package/layit)
 [![Node.js Version](http://img.shields.io/node/v/layit.svg?style=flat-square)](https://nodejs.org/en/)
 
-TypeScript Node.js modules boilerplate.
+TypeScript Node.js modules boilerplate. (The badges above are for demonstration purposes only)
