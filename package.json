@@ -16,18 +16,14 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "yarn run clean && yarn run compile && yarn run lint && yarn run dev_test",
-    "dev_test": "yarn run copy && yarn run t",
-    "dt": "yarn run dev_test",
+    "test": "yarn run clean && yarn run compile && yarn run lint && yarn run t",
     "t": "jest",
     "build": "yarn test",
     "compile": "tsc",
     "dev": "yarn run clean && tsc -w",
     "prepublishOnly": "yarn run test",
     "lint": "tslint --project tsconfig.json --config tslint.json",
-    "copy": "copyfiles \"tests/data/**/*.*\" \"dist\"",
-    "clean:dist": "rimraf dist",
-    "clean": "npm run clean:dist"
+    "clean": "rimraf dist"
   },
   "engines": {
     "node": ">=6.0.0"
