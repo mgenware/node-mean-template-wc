@@ -1,5 +1,5 @@
-const main = require('../..');
-import * as fs from 'fs';
+const main = require('..');
+const fs = require('fs');
 
 describe('require this module', () => {
   test('Verify module members', () => {
