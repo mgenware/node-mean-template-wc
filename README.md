@@ -6,3 +6,8 @@
 [![Node.js Version](http://img.shields.io/node/v/layit.svg?style=flat-square)](https://nodejs.org/en/)
 
 TypeScript Node.js modules boilerplate. (The badges above are for demonstration purposes only)
+
+## Usage
+* Clone this project.
+* Set a valid name in `package.json`.
+* Run `sh init.sh` to install the latest dependencies.
