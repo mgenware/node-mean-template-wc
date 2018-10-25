@@ -12,4 +12,4 @@ TypeScript Node.js modules boilerplate. (The badges above are for demonstration 
 * Make sure yarn is installed
 * Clone this project
 * Set a valid name in `package.json`
-* Run `sh init.sh` to install the latest dependencies ()
+* Run `sh init.sh` to install the latest dependencies
