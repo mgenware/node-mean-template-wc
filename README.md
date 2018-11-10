@@ -15,7 +15,7 @@ Node.js/TypeScript boilerplate project
 ## Folder Structure
 
 |              | Description                                | Uploaded to Git | Uploaded to npm |
-|--------------|--------------------------------------------|-----------------|-----------------|---|---|
+|--------------|--------------------------------------------|-----------------|-----------------|
 | `src`        | TypeScript source files                    | ✅               | ❌               |
 | `tests`      | TypeScript tests files                     | ✅               | ❌               |
 | `dist`       | Compiled JavaScript, type definition files | ❌               | ✅               |
