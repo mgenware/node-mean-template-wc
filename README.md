@@ -14,12 +14,12 @@ Node.js/TypeScript boilerplate project
 
 ## Folder Structure
 
-|              | Description                                | Uploaded to Git | Uploaded to npm |   |   |
+|              | Description                                | Uploaded to Git | Uploaded to npm |
 |--------------|--------------------------------------------|-----------------|-----------------|---|---|
-| `src`        | TypeScript source files                    | ✅               | ❌               |   |   |
-| `tests`      | TypeScript tests files                     | ✅               | ❌               |   |   |
-| `dist`       | Compiled JavaScript, type definition files | ❌               | ✅               |   |   |
-| `dist_tests` | Compiled JavaScript tests files            | ❌               | ❌               |   |   |
+| `src`        | TypeScript source files                    | ✅               | ❌               |
+| `tests`      | TypeScript tests files                     | ✅               | ❌               |
+| `dist`       | Compiled JavaScript, type definition files | ❌               | ✅               |
+| `dist_tests` | Compiled JavaScript tests files            | ❌               | ❌               |
 
 ## Commands
 
