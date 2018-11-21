@@ -1,6 +1,6 @@
 {
   "name": "<ModuleName>",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "<NoDescription>",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
