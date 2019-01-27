@@ -31,5 +31,8 @@
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js"]
   }
 }
