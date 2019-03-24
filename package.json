@@ -18,9 +18,9 @@
   "scripts": {
     "test": "yarn run clean && yarn run compile && yarn run lint && yarn run t",
     "t": "jest",
-    "build": "yarn test",
+    "build": "cross-env NODE_ENV=production yarn test",
     "compile": "tsc -b tests",
-    "dev": "yarn run clean && tsc -b tests -w",
+    "dev": "cross-env NODE_ENV=development yarn run clean && tsc -b tests -w",
     "prepublishOnly": "yarn run test",
     "lint": "tslint --project tsconfig.json --config tslint.json",
     "clean": "rimraf dist && rimraf dist_tests"
