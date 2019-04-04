@@ -23,7 +23,7 @@
     "dev": "cross-env NODE_ENV=development yarn run clean && tsc -b tests -w",
     "prepublishOnly": "yarn run test",
     "lint": "tslint --project tsconfig.json --config tslint.json",
-    "clean": "rimraf dist && rimraf dist_tests"
+    "clean": "del-cli dist && del-cli dist_tests"
   },
   "engines": {
     "node": ">=8.0.0"
