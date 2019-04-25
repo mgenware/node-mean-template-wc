@@ -28,11 +28,6 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "all",
-    "endOfLine": "lf"
-  },
   "jest": {
     "moduleFileExtensions": [
       "js"
