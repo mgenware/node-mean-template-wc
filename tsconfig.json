@@ -9,6 +9,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "experimentalDecorators": true,
     "lib": ["es5", "es6", "es2017"]
   }
 }
