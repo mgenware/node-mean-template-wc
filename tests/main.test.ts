@@ -1,5 +1,6 @@
 import { add } from '../';
+import * as assert from 'assert';
 
-test('Add', () => {
-  expect(add(1, -9)).toBe(-8);
+it('Add', () => {
+  assert.equal(add(1, -9), -8);
 });
