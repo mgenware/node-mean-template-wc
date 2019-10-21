@@ -22,7 +22,7 @@
     "compile": "tsc -b tests",
     "dev": "cross-env NODE_ENV=development yarn run clean && tsc -b tests -w",
     "prepublishOnly": "yarn run test",
-    "lint": "eslint --ext .ts src/ tests/",
+    "lint": "eslint --max-warnings 0 --ext .ts src/ tests/",
     "clean": "del-cli dist && del-cli dist_tests"
   },
   "engines": {
