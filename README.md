@@ -3,14 +3,14 @@
 Node.js/TypeScript boilerplate project
 
 - Uses TypeScript 3 project references
-- Builtin commands for development, testing, linting, clean and build
+- Commands for development, testing, linting, clean and build
 
-## Getting started
+## Usage
 
 - Make sure yarn is installed
 - Clone this project
 - Set a valid project name in `package.json`
-- Run `sh init.sh` to install the latest dependencies (**Windows users: you may have to manually run the staff in `init.sh`**)
+- Run `sh init.sh` to install the latest dependencies (**Windows users: you may have to manually run the stuff in `init.sh`**)
 
 ## Folder Structure
 
@@ -23,16 +23,19 @@ Node.js/TypeScript boilerplate project
 
 ## Commands
 
-### Common Commands
+### For development
 
 - `yarn dev` starts the development mode, which watches and compiles all source files including tests files.
-- `yarn t` runs tests in development mode. usually, you keep two terminal tabs, one for `yarn dev`, the other for `yarn t`.
-- `yarn test` or `yarn build` cleans, lints, compiles sources and runs tests.
+- `yarn t` runs tests in development mode. You can keep two terminal tabs during development, one for `yarn dev`, the other for `yarn t`.
+
+### For production
+
+- `yarn test` (or `yarn build`) cleans, lints, compiles sources and runs tests.
 
 ### Other Commands
 
-Normally, you do not need to manually run these commands, they are already integrated into other commands.
+Usually, you do not need to manually run these commands, they are already integrated into other commands.
 
-- `yarn lint` lints the whole project using TSLint, auto triggered by `yarn test`.
-- `yarn clean` removes the compiled files, auto triggered by `yarn dev` and `yarn test`.
-- `yarn compile` compiles all TypeScript source files, auto triggered by `yarn dev` and `yarn test`
+- `yarn lint` lints the project using ESLint, auto triggered by `yarn test`.
+- `yarn clean` removes the compiled files, auto triggered by `yarn dev` or `yarn test`.
+- `yarn compile` compiles all TypeScript source files, auto triggered by `yarn test`.
