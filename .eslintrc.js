@@ -16,15 +16,16 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
-    // We'll let prettier handle operator linebreaks.
-    'operator-linebreak': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-    '@typescript-eslint/switch-exhaustiveness-check': 'error',
     'lines-between-class-members': [
       'error',
       'always',
       { exceptAfterSingleLine: true },
     ],
+    'max-classes-per-file': 'off',
+    // We'll let prettier handle operator line breaks.
+    'operator-linebreak': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/switch-exhaustiveness-check': 'error',
   },
 };
