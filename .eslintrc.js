@@ -23,7 +23,7 @@ module.exports = {
     ],
     'max-classes-per-file': 'off',
     'prefer-destructuring': ['error', { object: true, array: false }],
-    // We'll let prettier handle operator line breaks.
+    // We'll let prettier handle whitespaces.
     'operator-linebreak': 'off',
     'function-paren-newline': 'off',
     'implicit-arrow-linebreak': 'off',
