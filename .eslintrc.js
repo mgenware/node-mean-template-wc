@@ -22,8 +22,13 @@ module.exports = {
       { exceptAfterSingleLine: true },
     ],
     'max-classes-per-file': 'off',
+    'prefer-destructuring': ['error', { object: true, array: false }],
     // We'll let prettier handle operator line breaks.
     'operator-linebreak': 'off',
+    'function-paren-newline': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'object-curly-newline': 'off',
+    // End of prettier-related rules.
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
