@@ -16,14 +16,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "yarn run clean && yarn run compile && yarn run lint && yarn run t",
-    "t": "mocha --require source-map-support/register dist_tests/**/*.test.js",
-    "build": "cross-env NODE_ENV=production yarn test",
-    "compile": "tsc -b tests",
-    "dev": "cross-env NODE_ENV=development yarn run clean && tsc -b tests -w",
-    "prepublishOnly": "yarn run build",
-    "lint": "eslint --max-warnings 0 --ext .ts src/ tests/",
-    "clean": "rimraf dist && rimraf dist_tests"
+    "r": "yarn daizong",
+    "prepublishOnly": "yarn r build"
   },
   "engines": {
     "node": ">=10.0.0"
