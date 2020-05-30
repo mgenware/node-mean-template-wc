@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "r": "yarn daizong",
+    "r": "daizong",
     "prepublishOnly": "yarn r build"
   },
   "engines": {
