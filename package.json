@@ -1,7 +1,7 @@
 {
-  "name": "<ModuleName>",
+  "name": "<__PKG_NAME__>",
   "version": "0.0.0",
-  "description": "<NoDescription>",
+  "description": "__DESCRIPTION__",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "author": "Mgen (https://www.mgenware.com)",
