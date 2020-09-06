@@ -11,6 +11,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
     "newLine": "lf"
   }
 }
