@@ -40,3 +40,7 @@ Usually, you do not need to manually run these scripts, they are already integra
 
 - `yarn r lint` lints the project using ESLint, auto triggered by `yarn r build`.
 - `yarn r clean` deletes compiled files, auto triggered by `yarn r dev` or `yarn r build`.
+
+### No `prepublishOnly`
+
+The `prepublishOnly` script was removed, we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `yarn test` before publishing.
