@@ -17,7 +17,7 @@
   "license": "MIT",
   "scripts": {
     "r": "daizong",
-    "test": "yarn r build"
+    "test": "daizong build"
   },
   "engines": {
     "node": ">=10.0.0"
