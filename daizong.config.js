@@ -5,7 +5,7 @@ module.exports = {
     envGroups: ['development'],
   },
 
-  // Runs tests in development mode. You can keep two terminal tabs during development, one for `yarn dev`, the other for `yarn r t`.
+  // Runs tests (you need to build the project first).
   t: {
     run:
       'mocha --parallel --require source-map-support/register dist_tests/**/*.test.js',
