@@ -10,17 +10,8 @@ module.exports = {
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-plusplus': 'off',
     // Allow `for-of` loops.
-    'no-restricted-syntax': [
-      'error',
-      'ForInStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
-    'lines-between-class-members': [
-      'error',
-      'always',
-      { exceptAfterSingleLine: true },
-    ],
+    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-classes-per-file': 'off',
     'prefer-destructuring': ['error', { object: true, array: false }],
     '@typescript-eslint/indent': 'off',
