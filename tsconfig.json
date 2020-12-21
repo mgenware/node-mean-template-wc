@@ -12,6 +12,7 @@
     "noUnusedParameters": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
     "newLine": "lf"
   }
 }
