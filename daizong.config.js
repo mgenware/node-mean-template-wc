@@ -4,10 +4,13 @@ module.exports = {
     run: ['#clean', 'tsc -b tests -w'],
     envGroups: ['development'],
   },
+  serve: {
+    run: ['web-dev-server --open demo/ --node-resolve --watch'],
+  },
 
   // Runs tests (you need to build the project first).
   t: {
-    run: 'mocha --parallel --require source-map-support/register dist_tests/**/*.test.js',
+    run: 'web-test-runner dist_tests/**/*.test.js --node-resolve',
   },
 
   // Cleans, lints, compiles sources and runs tests.
