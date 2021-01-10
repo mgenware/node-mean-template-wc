@@ -1,5 +1,5 @@
 {
-  "name": "pkg",
+  "name": "__PKG_NAME__",
   "version": "0.0.0",
   "description": "__DESCRIPTION__",
   "main": "dist/main.js",
