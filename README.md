@@ -2,6 +2,8 @@
 
 [![Build Status](https://github.com/mgenware/node-mean-template-wc/workflows/Build/badge.svg)](https://github.com/mgenware/node-mean-template-wc/actions)
 [![MEAN Module](https://img.shields.io/badge/MEAN%20Module%20WC-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/node-mean-template-wc)
+[![npm version](https://img.shields.io/npm/v/node-mean-template-wc.svg?style=flat-square)](https://npmjs.com/package/node-mean-template-wc)
+[![Node.js Version](http://img.shields.io/node/v/node-mean-template-wc.svg?style=flat-square)](https://nodejs.org/en/)
 
 Node.js TypeScript boilerplate for **Web components**. For standard node projects, see [node-mean-template](https://github.com/mgenware/node-mean-template)
 
@@ -27,7 +29,8 @@ Node.js TypeScript boilerplate for **Web components**. For standard node project
 
 - `yarn r dev` starts the development mode, which watches and compiles all source files including tests files.
 - `yarn r serve` starts demo page in browser in development mode.
-- `yarn r t` runs tests in development mode.
+- `yarn r t` runs tests in development mode (requires build files).
+- `yarn r tw` runs tests in development + watch mode (requires build files).
 
 > Tip: You can keep 3 terminal tabs open to run the 3 scripts above during development.
 
