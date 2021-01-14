@@ -12,6 +12,10 @@ module.exports = {
   t: {
     run: 'web-test-runner dist_tests/**/*.test.js --node-resolve',
   },
+  // Runs tests in watch mode (you need to build the project first).
+  tw: {
+    run: 'web-test-runner dist_tests/**/*.test.js --node-resolve --watch',
+  },
 
   // Cleans, lints, compiles sources and runs tests.
   build: {
