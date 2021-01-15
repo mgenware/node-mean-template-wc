@@ -1,5 +1,5 @@
 module.exports = {
-  // Starts the development mode, which watches and compiles all source files including tests files.
+  // Starts development mode: watches and compiles all source files including tests.
   dev: {
     run: ['#clean', 'tsc -b tests -w'],
     envGroups: ['development'],
