@@ -7,6 +7,8 @@
 
 Node.js TypeScript boilerplate for **Web components**. For standard node projects, see [node-mean-template](https://github.com/mgenware/node-mean-template)
 
+- Node v14+
+- **ES modules**
 - Uses TypeScript 3 project references
 - Commands for development, testing, linting, clean and build
 - Powered by [modern web tools](https://github.com/modernweb-dev/web)
