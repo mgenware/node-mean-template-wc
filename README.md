@@ -23,7 +23,7 @@ Node.js TypeScript boilerplate for **Web components**. For standard node project
 | `dist_tests` | Compiled JavaScript tests files            | ❌              | ❌              |
 | `demo`       | HTML entry during development              | ✅              | ❌              |
 
-## Scripts
+## Build Instructions
 
 > This project uses [daizong](https://github.com/mgenware/daizong) to manage scripts. You need to run scripts through daizong via `yarn r <script>` or `npm run r <script>`.
 
