@@ -4,7 +4,6 @@
   "description": "__DESCRIPTION__",
   "type": "module",
   "exports": "./dist/main.js",
-  "main": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "author": "Mgenware (https://github.com/mgenware)",
   "homepage": "https://github.com/mgenware/__PKG_NAME__",
