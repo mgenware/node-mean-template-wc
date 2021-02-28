@@ -8,9 +8,6 @@
   "author": "Mgenware (https://github.com/mgenware)",
   "homepage": "https://github.com/mgenware/__PKG_NAME__",
   "bugs": "https://github.com/mgenware/__PKG_NAME__/issues",
-  "keywords": [
-    "__KEY_WORDS__"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mgenware/__PKG_NAME__.git"
