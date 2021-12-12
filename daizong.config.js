@@ -4,17 +4,10 @@ export default {
     run: ['#clean', 'tsc -b tests -w'],
     envGroups: ['development'],
   },
-  serve: {
-    run: ['web-dev-server --open demo/ --node-resolve --watch'],
-  },
 
-  // Runs tests (you need to build the project first).
-  t: {
-    run: 'web-test-runner dist_tests/**/*.test.js --node-resolve',
-  },
-  // Runs tests in watch mode (you need to build the project first).
-  tw: {
-    run: 'web-test-runner dist_tests/**/*.test.js --node-resolve --watch',
+  // Opens example page in browser.
+  serve: {
+    run: ['web-dev-server --open example/ --node-resolve --watch'],
   },
 
   // Cleans, lints, compiles sources and runs tests.
@@ -23,16 +16,26 @@ export default {
     envGroups: ['production'],
   },
 
-  // Deletes compiled files, auto triggered by `yarn r dev` or `yarn r build`.
+  // Deletes compiled files, auto triggered by `#dev` or `#build`.
   clean: {
     run: {
       del: ['dist', 'dist_tests'],
     },
   },
 
-  // Lints the project using ESLint, auto triggered by `yarn r build`.
+  // Lints the project using ESLint, auto triggered by `#build`.
   lint: {
     run: 'eslint --max-warnings 0 --ext .ts src/ tests/',
+  },
+
+  // Runs tests when you already have `#dev` running.
+  t: {
+    run: 'web-test-runner dist_tests/**/*.test.js --node-resolve',
+  },
+
+  // Runs tests in watch mode when you already have `#dev` running.
+  tw: {
+    run: 'web-test-runner dist_tests/**/*.test.js --node-resolve --watch',
   },
 
   _: {

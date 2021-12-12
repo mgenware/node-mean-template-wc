@@ -16,35 +16,35 @@ Node.js TypeScript boilerplate for **Web components**. For standard node project
 | `tests`      | TypeScript tests files                     | ✅              | ❌              |
 | `dist`       | Compiled JavaScript, type definition files | ❌              | ✅              |
 | `dist_tests` | Compiled JavaScript tests files            | ❌              | ❌              |
-| `demo`       | HTML entry during development              | ✅              | ❌              |
+| `example`    | Example                                    | ✅              | ❌              |
 
 ## Build Instructions
 
-> This project uses [daizong](https://github.com/mgenware/daizong) to manage scripts. You need to run scripts through daizong via `yarn r <script>` or `npm run r <script>`.
+> This project uses [daizong](https://github.com/mgenware/daizong) to manage scripts. You need to run scripts through daizong via `npm run r <script>` or `yarn r <script>`.
 
 ### For development
 
-- `yarn r dev` starts the development mode, which watches and compiles all source files including tests files.
-- `yarn r serve` starts demo page in browser in development mode.
-- `yarn r t` runs tests in development mode (requires build files).
-- `yarn r tw` runs tests in development + watch mode (requires build files).
+- `npm run r dev` starts the development mode, which watches and compiles all source files including tests files.
+- `npm run r serve` opens example page in browser.
+- `npm run r t` runs tests in development mode.
+- `npm run r tw` runs tests in development and watches test files.
 
 > Tip: You can keep 3 terminal tabs open to run the 3 scripts above during development.
 
 ### For production
 
-- `yarn r build` cleans, lints, compiles the project and runs tests.
+- `npm run r build` cleans, lints, compiles the project and runs tests.
 
 ### Other scripts
 
 You do not need to manually run these scripts, they are already integrated into other scripts.
 
-- `yarn r lint` lints the project using ESLint, auto triggered by `yarn r build`.
-- `yarn r clean` deletes all build artifacts, auto triggered by `yarn r dev` or `yarn r build`.
+- `npm run r lint` lints the project using ESLint, auto triggered by `#build`.
+- `npm run r clean` deletes all build artifacts, auto triggered by `# dev` or `#build`.
 
 ### No `prepublishOnly`
 
-The `prepublishOnly` script was removed, we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `yarn test`, which runs `yarn r build` before publishing.
+The `prepublishOnly` script was removed, we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `npm test`, which runs `npm run r build` before publishing.
 
 ### Badges
 
