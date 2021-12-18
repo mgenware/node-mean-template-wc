@@ -35,7 +35,7 @@
     "@typescript-eslint/parser": "^5.6.0",
     "@web/dev-server": "^0.1.28",
     "@web/test-runner": "^0.13.22",
-    "daizong": "^0.21.0",
+    "daizong": "^0.22.0",
     "eslint": "^8.4.1",
     "eslint-config-mgenware": "^0.5.1",
     "eslint-plugin-import": "^2.25.3",

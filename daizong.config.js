@@ -6,9 +6,7 @@ export default {
   },
 
   // Opens example page in browser.
-  serve: {
-    run: ['web-dev-server --open example/ --node-resolve --watch'],
-  },
+  serve: 'web-dev-server --open example/ --node-resolve --watch',
 
   // Cleans, lints, compiles sources and runs tests.
   build: {
@@ -24,19 +22,13 @@ export default {
   },
 
   // Lints the project using ESLint, auto triggered by `#build`.
-  lint: {
-    run: 'eslint --max-warnings 0 --ext .ts src/ tests/',
-  },
+  lint: 'eslint --max-warnings 0 --ext .ts src/ tests/',
 
   // Runs tests when you already have `#dev` running.
-  t: {
-    run: 'web-test-runner dist_tests/**/*.test.js --node-resolve',
-  },
+  t: 'web-test-runner dist_tests/**/*.test.js --node-resolve',
 
   // Runs tests in watch mode when you already have `#dev` running.
-  tw: {
-    run: 'web-test-runner dist_tests/**/*.test.js --node-resolve --watch',
-  },
+  tw: 'web-test-runner dist_tests/**/*.test.js --node-resolve --watch',
 
   _: {
     envGroups: {
