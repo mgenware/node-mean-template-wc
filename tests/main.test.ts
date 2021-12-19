@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 /* eslint-disable import/no-duplicates */
 import { html, fixture, expect } from '@open-wc/testing';
-import '..';
-import { MyCounter } from '..';
+import '../dist/main.js';
+import { MyCounter } from '../dist/main.js';
 
 function verifyValue(el: MyCounter, val: number) {
   const valStr = `${val}`;
