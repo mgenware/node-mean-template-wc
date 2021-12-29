@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -20,4 +20,5 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm i
+      - run: sudo npx playwright install-deps webkit
       - run: npm test

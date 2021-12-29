@@ -1,3 +1,6 @@
+// Shared test command used by both `#t` and `#tw`.
+const runTestCmd = 'wtr dist_tests/**/*.test.js --node-resolve --playwright --browsers webkit';
+
 export default {
   // Starts development mode: watches and compiles all source files including tests.
   dev: {
@@ -25,10 +28,10 @@ export default {
   lint: 'eslint --max-warnings 0 --ext .ts src/ tests/',
 
   // Runs tests when you already have `#dev` running.
-  t: 'web-test-runner dist_tests/**/*.test.js --node-resolve',
+  t: runTestCmd,
 
   // Runs tests in watch mode when you already have `#dev` running.
-  tw: 'web-test-runner dist_tests/**/*.test.js --node-resolve --watch',
+  tw: `${runTestCmd} --watch`,
 
   _: {
     envGroups: {
