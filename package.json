@@ -25,7 +25,8 @@
     "dist/**/*.ts",
     "dist/**/*.html",
     "dist/**/*.css",
-    "dist/**/*.map"
+    "dist/**/*.map",
+    "custom-elements.json"
   ],
   "devDependencies": {
     "@types/mocha": "^9.0.0",
