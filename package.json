@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/mgenware/__PKG_NAME__.git"
   },
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "scripts": {
     "r": "daizong",
     "test": "daizong build"
