@@ -5,3 +5,5 @@ dist_tests/
 *.log
 *.pid
 *.seed
+
+.DS_Store
